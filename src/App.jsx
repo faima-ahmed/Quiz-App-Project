@@ -47,9 +47,9 @@ const questions = [
 ];
 const App = () => {
   return (
-    <div className="App">
-      <div>
-        <div>Quiz App</div>
+    <div className="flex justify-center h-screen">
+      <div className="w-full max-w-lg bg-white p-5 rounded shadow-lg">
+        <div className="p-2 border text-center font-bold mb-2 text-xl">Quiz App</div>
         <div>
           <div>{questions[0].questionText}</div>
         </div>
